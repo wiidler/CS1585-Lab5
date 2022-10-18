@@ -12,6 +12,9 @@ int main()
     {
         cout << factorial(i) << endl;
     }
-
+    unsigned long x,y;
+    x = 4;
+    y = 3;
+    cout << combination(x,y) << endl;
     return 0;
 }

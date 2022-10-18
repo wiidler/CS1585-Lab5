@@ -10,5 +10,5 @@ unsigned long factorial(unsigned long n)
 
 unsigned long combination(unsigned long n, unsigned long m)
 {
-    //TODO: Implement me!
+    return factorial(n)/(factorial(m) * factorial(n-m));
 }
