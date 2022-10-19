@@ -16,5 +16,15 @@ int main()
     x = 4;
     y = 3;
     cout << combination(x,y) << endl;
+
+    for(int i = 0; i < 7; i++){
+        for(int j = 0; j < i+1; j++){
+            t.add(combination(i,j));
+        }
+        t.newrow();
+    }
+    t.print();
+
+
     return 0;
 }
